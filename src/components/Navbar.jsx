@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import Button from '@/Atoms/Button'
 
 const Navbar = () => {
   return (
-    <div className='flex bg-transparent justify-around  items-center p-5'>
+    <div className='flex fixed top-0 bg-transparent justify-around w-[100%]  items-center p-5'>
         <div className='Logoright'>
             <Image 
             src="/Logo.svg"
@@ -27,7 +28,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className='LEFT flex gap-5'>
-            <div className='search relative'>
+            <div className='search pt-[2px] relative'>
                 <input type='text' placeholder='Search Impurities...' className='w-[243px] h-[40px] rounded-3xl bg-transparent tracking-wide font-light pl-5 border text-[14px] placeholder:text-[#FFF] text-[#FFF] placeholder:text-[14px] focus:outline-none focus-visible:outline-none' />
                 <Image 
                 src="./Search.svg"
@@ -38,9 +39,12 @@ const Navbar = () => {
                 />
             </div>
             <div className='button'>
-                <button className='bg-blue-50 font-sans px-[20px] py-[10px] text-[13px] rounded-md'>
+                {/* <button className='bg-blue-50 font-sans px-[20px] py-[10px] text-[13px] rounded-md'>
                     Contact Us
-                </button>
+                </button> */}
+                <Button style={{ backgroundColor: '#4460F1', color: 'white', padding:"12px 25px", fontSize:"13px", borderRadius:"4px" ,color: "white", fontWeight:"500"  }}>
+                    Contact Us
+                </Button>
             </div>
         </div>
     </div>
