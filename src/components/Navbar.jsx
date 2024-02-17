@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Button from '@/Atoms/Button'
 
 const Navbar = () => {
-  return (
-    <div className='flex fixed top-0 bg-transparent justify-around w-[100%]  items-center p-5'>
+  return ( 
+    <div className='flex z-20 fixed top-0 bg-transparent justify-around w-[100%]  items-center p-5'>
         <div className='Logoright'>
             <Image 
             src="/Logo.svg"
