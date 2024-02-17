@@ -3,7 +3,7 @@ import Main from "./home/page";
 
 export default function Home() {
   return (
-    <main className="main h-[100vh] bg-slate-900">
+    <main className="main h-[100vh]">
       <Main />
     </main>
   );
