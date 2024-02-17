@@ -16,6 +16,22 @@
   } */
 }
 
+.swiper-pagination{
+  position: absolute !important;
+  top: 7% !important;
+  right: 3% !important;
+  text-align: right !important;
+  padding-right: 45px !important;
+}
+
+.swiper-button-next{
+  display: none !important;
+}
+
+.swiper-button-prev{
+  display: none !important;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(

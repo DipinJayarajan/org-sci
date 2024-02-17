@@ -15,7 +15,7 @@ const Customers = () => {
             <span style={{marginLeft: "2px"}}>+</span>
           </span>
         </h3>
-        <p className={css.customerTitle}>Customers</p>
+        <p className={css.customerTitle}> Satisfied Customers</p>
       </div>
 
       <div className={css.statsCategory}>
@@ -25,7 +25,7 @@ const Customers = () => {
             <span style={{marginLeft: "2px"}} >+</span>
           </span>
         </h3>
-        <p className='customerTitle'>Delivery</p>
+        <p className={css.customerTitle}>Delivery</p>
       </div>
 
       <div className={css.statsCategory}>
@@ -35,7 +35,7 @@ const Customers = () => {
             <span style={{marginLeft: "2px"}}>+</span>
           </span>
         </h3>
-        <p className={css.customerTitle}>Our  Presence</p>
+        <p className={css.customerTitle}>Our Presence</p>
       </div>
 
     </div>
