@@ -32,6 +32,22 @@
   display: none !important;
 }
 
+.clientMain {
+  background: radial-gradient(circle, rgba(6,17,45,1) 42%, rgba(14,33,79,1) 99%, rgba(0,0,0,1) 100%);
+
+}
+
+.pic-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.image_wrapper{
+  padding: 8px 60px;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
