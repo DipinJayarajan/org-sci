@@ -1,4 +1,4 @@
-[
+const testimonials = [
     {
       "index": "01",
       "image": "path/to/your/image1.jpg",
@@ -26,3 +26,4 @@
     }
   ]
   
+  export default testimonials;

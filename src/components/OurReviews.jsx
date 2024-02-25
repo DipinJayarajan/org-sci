@@ -11,7 +11,10 @@ const OurReviews = () => {
         </div>
         <h1 className='font-semibold text-[28px] max-w-[300px] text-[#232323]'>Feedback from our favorite customers</h1>
       </div>
-      
+      <div>
+        <div className='testimonial'>
+        </div>
+      </div>
       </div>
   )
 }
