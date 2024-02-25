@@ -1,8 +1,9 @@
 "use client"
 
-import Button from '@/Atoms/Button'
+// import Button from '@/Atoms/Button'
 import Image from 'next/image'
 import React from 'react'
+import Button from '../../Atoms/Button'
 
 const AboutUs = () => {
   return (
@@ -16,7 +17,7 @@ const AboutUs = () => {
           <h1 className='font-semibold text-[30px] text-[#232323]'>Elevate your lab with premium chemicals</h1>
           <p>Our strong determination and positive mindset have paved the way for our remarkable expansion and steady growth.</p>
           <div>
-          <Button style={{ backgroundColor: '#4460F1', color: 'white', fontSize:"13px", borderRadius:"4px" ,color: "white", fontWeight:"500", padding: "20px 35px 20px 35px", width:"30%", cursor: "pointer"  }}>
+          <Button  style={{ backgroundColor: '#4460F1', color: 'white', fontSize:"13px", borderRadius:"4px" ,color: "white", fontWeight:"500", padding: "20px 35px 20px 35px", width:"30%", cursor: "pointer"  }}>
              Know More
           </Button>
           </div>

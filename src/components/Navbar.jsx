@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Button from '@/Atoms/Button'
+import Button from '../Atoms/Button'
+
 
 const Navbar = () => {
   return ( 

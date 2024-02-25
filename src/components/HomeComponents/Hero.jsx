@@ -19,7 +19,7 @@ const Hero = () => {
             <video src='./videoBg.mp4' className='w-[100%] h-screen object-cover' autoPlay loop muted  />
         </div>
         <div  className='content absolute top-0 w-[100%] h-[100%] flex '>
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 w-[100%]'>
         <div className='leftHero flex flex-col px-[80px] gap-[20px] mt-[120px] '>
         <h1 className='leftHero-text flex-wrap flex leading-[79px] font-semibold text-[#FFF] max-w-[600px] text-[50px]'>
         Transform Your Lab With High-Quality Chemicals
