@@ -48,6 +48,54 @@
   padding: 8px 60px;
 }
 
+.test_main{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: start !important;
+}
+
+.slick-arrow{
+  color:  white !important;
+  border: 1px solid black !important;
+  border-radius: 100px;
+  padding: 20px !important;
+  background-color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-prev::before{
+  content: url("./../../public/Icongt.png");
+  color: black !important;
+  background-color: transparent !important;
+  font-size: 24px !important;
+  font-family: none !important;
+  /* font-weight: bold !important; */
+  opacity: none !important;
+  font-weight: 900 !important;
+}
+
+.slick-prev{
+  left: 0px !important;
+  z-index: 10 !important;
+}
+
+.slick-next {
+  right: 0px !important;
+}
+
+.slick-next:before{
+  content: url("./../../public/Icongt.png");
+  color: black !important;
+  background-color: transparent !important;
+  font-size: 24px !important;
+  font-family: none !important;
+  /* font-weight: bold !important; */
+  opacity: none !important;
+  font-weight: 900 !important;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
