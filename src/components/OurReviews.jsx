@@ -22,10 +22,16 @@ const OurReviews = () => {
         <div className='text-[#175BFF] text-[18px] font-semibold'>
           Our Reviews
         </div>
+        <div className='flex flex-col'>
         <h1 className='font-semibold text-[28px] max-w-[300px] text-[#232323]'>Feedback from our favorite customers</h1>
+        <p className='font-semibold text-[14px] max-w-[500px] leading-[28px] text-slate-600'>
+        We treat our customer better than any other
+company. Thank you for being with us!
+        </p>
+        </div>
       </div>
       <div>
-        <div className='testimonial pt-[150px]'>
+        <div className='testimonial pt-[100px]'>
       <Slider {...settings}>
           {
             testimonials?.map((data, index) => (
@@ -44,9 +50,9 @@ const OurReviews = () => {
                 <span className="font-bold">{data.index.split('/')[0]}</span><span>{'/'}</span>
     <span>{data.index.split('/')[1]}</span>
                   </p>
-                  <p className='max-w-[700px] text-[18px] italic font-normal leading-[38.4px] text-[#232323]'>"{data.testimonials}"</p>
-                  <p className='pt-4 font-bold text-[#000] text-[23px]'>{data.name} {data.surname}</p>
-                  <p className='text-[#000] text-[18px] font-normal'>{data.post} </p>
+                  <p className='max-w-[700px] pt-4 font-medium  text-[17px] italic  leading-[31px] text-slate-800'>"{data.testimonials}"</p>
+                  <p className='pt-4 font-bold text-[#000] text-[22px]'>{data.name} {data.surname}</p>
+                  <p className='text-[#000] text-[17px] font-normal'>{data.post} </p>
                 </div>
               </div>
             ))
